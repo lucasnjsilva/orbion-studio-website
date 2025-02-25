@@ -1,22 +1,6 @@
 import type { Metadata } from "next";
-import { Righteous, Inter } from "next/font/google";
 import "./globals.css";
-
-const righteous = Righteous({
-  variable: "--font-righteous",
-  weight: ["400"],
-  subsets: ["latin"],
-}); 
-
-const inter = Inter({ 
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-export const fonts = {
-  righteous,
-  inter,
-}
+import { inter, righteous } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: "Orbion Studio",
