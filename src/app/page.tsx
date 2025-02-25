@@ -22,10 +22,10 @@ export default function Home() {
             <h4 className={`text-6xl font-black ${fonts.inter.className}`}>
               A simplicidade é o último grau de sofisticação.
             </h4>
-            <p className={`float-end ${fonts.inter.className}`}>Leonardo da Vinci</p>
+            <p className={`float-end ${fonts.inter.className} mr-28`}>Leonardo da Vinci</p>
           </div>
 
-          <div className="space-x-4 pt-12 relative z-10">
+          <div className="space-x-4 pt-8 relative z-10">
             <Link href="https://api.whatsapp.com/send?phone=5587991985000&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20oferecidos%20por%20voc%C3%AAs.%20Poderiam%20me%20ajudar?" target="_blank" >
               <Button type="button" variant="secondary">
                 <PhoneCall />
