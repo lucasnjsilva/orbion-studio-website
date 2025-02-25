@@ -8,7 +8,31 @@ export const metadata: Metadata = {
   authors: [
     { name: "Orbion Studio", url: "https://orbion.studio" },
     { name: "Lucas Nathan", url: "https://www.linkedin.com/in/lucasnjsilva/" },
-  ]
+  ],
+  keywords: [
+    "Orbion Studio",
+    "Desenvolvimento de Software",
+    "Web Design",
+    "Software sob Demanda",
+    "Soluções Inovadoras",
+    "Soluções Escaláveis",
+    "Negócio",
+    "Crescimento",
+    "Contato",
+    "Orbion",
+    "Studio",
+    "Desenvolvimento",
+    "Software",
+    "Web",
+    "Design",
+    "Sob Demanda",
+    "Soluções",
+    "Inovadoras",
+    "Escaláveis",
+    "Negócio",
+    "Crescimento",
+    "Contato"
+  ],
 };
 
 export default function RootLayout({

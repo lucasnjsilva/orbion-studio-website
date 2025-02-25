@@ -20,7 +20,7 @@ export default function Home() {
         </div>
 
         <h4 className={`text-3xl md:text-4xl lg:text-6xl font-black ${inter.className}`}>
-          A simplicidade é o último grau de sofisticação.
+          Desenvolvimento de Software e Web Design.
         </h4>
 
         <div className="relative z-10 flex flex-col space-y-4 2xs:flex-row 2xs:space-y-0 2xs:space-x-4">
