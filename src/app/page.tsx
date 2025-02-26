@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 export default function Home() {
   const whatsappNumber = "5587991985000";
   const whatsappMessage = "Olá, gostaria de saber mais sobre os serviços oferecidos por vocês.";
-  const whatsappLink = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURI(whatsappMessage)}`;
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-zinc-900 text-white">
